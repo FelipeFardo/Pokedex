@@ -35,9 +35,9 @@ body {
 }
     
 .pagination button {
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 1rem;
     margin: 0.25rem 0;
-    font-size: .625rem;
+    font-size: 1rem;
     color: #fff;
     background-color: #6c79db;
     border: none;
