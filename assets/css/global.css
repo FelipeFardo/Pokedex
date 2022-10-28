@@ -1,14 +1,14 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap");
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #f6f8fc;;
+    background-color: #f6f8fc;
 }
 
 .content {
@@ -33,7 +33,7 @@ body {
     width: 100%;
     padding: 1rem;
 }
-    
+
 .pagination button {
     padding: 0.5rem 1rem;
     margin: 0.25rem 0;
@@ -44,7 +44,7 @@ body {
     border-radius: 1rem;
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) {
     .content {
         max-width: 1100px;
         height: auto;
