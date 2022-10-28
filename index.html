@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="assets/css/pokedex.css" />
+    <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <section class="content">
+        <img class="logo" src="imagens/pokedex-3d-logo.png" alt="Pokedex" />
+        <ol id="pokemonList" class="pokemons"></ol>
+    </section>
+
+    <div class="pagination">
+        <button id="loadMoreButton" type="button">
+            Load More
+        </button>
+    </div>
+
+    <script src="assets/js/poke-api.js"></script>
+    <script src="assets/js/pokemon-model.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
