@@ -19,7 +19,6 @@ body {
 }
 
 .content .logo {
-    min-width: 40%;
     display: block;
     position: relative;
     width: 40%;
